@@ -13,13 +13,14 @@
 
 <script type="text/javascript">
 
-	var prior =  window.history.previous.href
-	if(!prior === 'https://esp-core.netlify.app/validate=success' (
+	const prior = document.referrer;
+	const req = 'https://esp-core.netlify.app/validate';
+
+	if(!prior === req) {
 
 		window.location.replace("https://esp-core.netlify.app/validate")
 
-		)
-	)
+	}
 
 </script>
 
