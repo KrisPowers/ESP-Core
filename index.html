@@ -17,13 +17,12 @@
 
 <script type="text/javascript">
 
-	const prior = document.referrer;
-	const req = 'https://esp-core.netlify.app/validate';
+	let ref = document.referrer();
 
-	if(!prior === req) {
-
-		location.replace("https://esp-core.netlify.app/validate")
-
+	if(ref === 'https://esp-core.netlify.app/validate') {
+		stop
+	} else {
+		window.location.replace('https://esp-core.netlify.app/validate')
 	}
 
 </script>
