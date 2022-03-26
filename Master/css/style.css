@@ -5,6 +5,7 @@ body{
 	padding:0px;
 	background-color:#161616;	
 }
+
 ul{
 	list-style:none;
 }
@@ -230,6 +231,7 @@ nav{
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 	position: relative;
 }
+
 .b-container{
 	display: flex;
 	justify-content: center;

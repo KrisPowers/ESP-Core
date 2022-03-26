@@ -5,9 +5,11 @@ body{
 	padding:0px;
 	background-color:#161616;	
 }
+
 ul{
 	list-style:none;
 }
+
 a{
 	text-decoration:none;
 }
@@ -192,15 +194,14 @@ nav{
 	transition: all ease 0.3s;
 }
 #services{
-		width:100%;
+	width:100%;
 	height:100vh;
 	box-sizing: border-box;
 	font-family: calibri;
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 40px ;
+	padding-top: 0px ;
 	
 }
 
