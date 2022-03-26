@@ -1,0 +1,102 @@
+Baseplate
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+Key Master Database (Keys: 10)
+
+[
+    Display Name: Grimm Website
+    ID: erkzlw
+    Key: esp85d1c6665e84
+    Validation Key: 1b12f71c2d21
+    Owner Email: krispowersemail@gmail.com
+    Owner ID: 1B0F678C
+]
+
+[
+    Display Name: OSRP Website
+    ID: tnruys
+    Key: espa9e2d7217c0a
+    Validation Key: 474ebea2c8d7
+    Owner Email: krispowersemail@gmail.com
+    Owner ID: 1B0F678C
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
+
+[
+    Display Name:
+    ID:
+    Key:
+    Validation Key:
+    Owner Emai:
+    Owner ID: 
+]
