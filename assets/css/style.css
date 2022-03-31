@@ -184,9 +184,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
 /**
 * Desktop Navigation 
 */
@@ -223,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  color: white;
 }
 .navbar > ul > li > a:before {
   content: "";
@@ -257,12 +255,18 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
+
+.navbar span {
+  color: white;
+}
+
 .navbar .dropdown ul li {
   min-width: 200px;
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-weight: 400;
+  color:#3a3a3a;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -293,6 +297,11 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+}
+
+.tw-space-y-reverse {
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 /**
@@ -762,6 +771,13 @@ section {
   font-size: 14px;
 }
 
+.counts .count-box h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1141,6 +1157,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  background-color: #111827;
+}
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1240,6 +1259,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  background-color: #111827;
 }
 .faq .faq-list {
   padding: 0;
@@ -1269,6 +1289,7 @@ section {
   top: -2px;
 }
 .faq .faq-list p {
+  color:rgb(255, 255, 255);
   margin-bottom: 0;
   padding: 10px 0 0 25px;
 }
@@ -1276,7 +1297,7 @@ section {
   display: none;
 }
 .faq .faq-list .collapsed {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .faq .faq-list .collapsed:hover {
   color: #106eea;
@@ -1408,11 +1429,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #111827;
   padding: 0 0 30px 0;
-  color: #444444;
+  color: #ffffff;
   font-size: 14px;
-  background: #f1f6fe;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -1461,7 +1481,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #111827;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1481,12 +1501,12 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #ffffff;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #ffffff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1513,7 +1533,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;

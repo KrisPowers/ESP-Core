@@ -9,10 +9,10 @@
     }
 
     if (code == "501") {
-        window.location.replace("https://esp-core.netlify.app/urgent/esp_anc_502");
+        window.location.replace("https://esp-core.netlify.app/blog/501");
     }
     
     if (code == "502") {
-        window.location.replace("https://esp-core.netlify.app/urgent/esp_anc_502");
+        window.location.replace("https://esp-core.netlify.app/blog/502");
     }
 })()
