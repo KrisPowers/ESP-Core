@@ -1,0 +1,4 @@
+Tier 1 = Personal
+Tier 2 = Business
+Tier 3 = Enterprise
+Tier 4 = Ultimate
